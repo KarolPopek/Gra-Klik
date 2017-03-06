@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: url("img/bg.jpeg");
+}
+
+#wrapper {
+	margin: 150px 0 0 170px;
+	width: 1200px;
+}
+
+#area {
+	width: 500px;
+	height: 400px;
+	background: #F2F2F2;
+	border: 1px solid #6B8180;
+	float: left;
+}
+
+#area div {
+	position: absolute;
+}
+
+#score {
+	width: 400px;
+	font-size: 22px;
+	font-family: 'Lato';
+	font-weight: 700;
+	margin: 20px 0 50px 100px;
+	float: left;
+}
+
+h3, h4 {
+	margin: 20px 10px 20px 0;
+	display: inline-block;
+}
